@@ -34,21 +34,28 @@ WebElement element = driver.findElement(By.tagName("tagName"));
 
 <h4>Link Text Locator:</h4>
 Locate a link element by its exact text.
+
 ```java
 WebElement element = driver.findElement(By.linkText("Link Text"));
 ```
+
 <h4>Partial Link Text Locator:</h4>
 Locate a link element by a partial match of its text.
+
 ```java
 WebElement element = driver.findElement(By.partialLinkText("Partial Text"));
 ```
+
 <h4>XPath Locator:</h4>
 Locate an element using XPath expression.
+
 ```java
 WebElement element = driver.findElement(By.xpath("//xpathExpression"));
 ```
+
 <h4>CSS Selector Locator:</h4>
 Locate an element using a CSS selector.
+
 ```java
 WebElement element = driver.findElement(By.cssSelector("cssSelector"));
 ```
