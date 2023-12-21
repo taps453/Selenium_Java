@@ -9,6 +9,7 @@
 Locate an element by its ID attribute.
 ```java
 WebElement element = driver.findElement(By.id("elementId"));
+```
 
 <h4>Name Locator:</h4>
 
