@@ -6,24 +6,32 @@
 
 <h4>ID Locator:</h4>
 Locate an element by its ID attribute.
+
 ```java
 WebElement element = driver.findElement(By.id("elementId"));
 ```
+
 <h4>Name Locator:</h4>
 Locate an element by its Name attribute.
+
 ```java
 WebElement element = driver.findElement(By.name("elementName"));
 ```
+
 <h4>Class Name Locator:</h4>
 Locate an element by its class name.
+
 ```java
 WebElement element = driver.findElement(By.className("className"));
 ```
+
 <h4>Tag Name Locator:</h4>
 Locate an element by its HTML tag name.
+
 ```java
 WebElement element = driver.findElement(By.tagName("tagName"));
 ```
+
 <h4>Link Text Locator:</h4>
 Locate a link element by its exact text.
 ```java
