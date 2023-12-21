@@ -1,7 +1,7 @@
 # Selenium_Java
 
 <h4>WebDriver is an Interface. All the webdrivers are the Classes that implement the Interface.</h4>
-
+<hr>
 <h3>Locator</h3> Locators are used to identify and interact with web elements on a web page. 
 
 <h4>ID Locator:</h4>
@@ -43,4 +43,7 @@ WebElement element = driver.findElement(By.xpath("//xpathExpression"));
 
 Locate an element using a CSS selector.
 WebElement element = driver.findElement(By.cssSelector("cssSelector"));
+
+```java
+WebElement element = driver.findElement(By.xpath("//xpathExpression"));
 
