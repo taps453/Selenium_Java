@@ -147,3 +147,16 @@ Displays the dependency tree for the project, showing all dependencies and their
 ```bash
 mvn dependency:tree
 ```
+
+<hr>
+Clean Lifecycle:
+clean: Deletes the target directory and any other generated files.
+Default Lifecycle:
+
+validate: Validates the project structure.
+compile: Compiles the source code.
+test: Runs unit tests.
+package: Packages compiled code into a distributable format (e.g., JAR, WAR).
+verify: Runs checks on the package to ensure its integrity.
+install: Installs the package into the local repository.
+deploy: Copies the final package to a remote repository for sharing with other developers or projects.
