@@ -60,3 +60,15 @@ Locate an element using a CSS selector.
 WebElement element = driver.findElement(By.cssSelector("cssSelector"));
 ```
 
+
+<hr>
+## Maven Setup
+
+Make sure you have Maven installed. You can download it from [Maven official website](https://maven.apache.org/download.cgi).
+
+### Build
+
+To build your project, run the following command in the root directory:
+
+```bash
+mvn clean install
