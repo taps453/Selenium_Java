@@ -149,14 +149,17 @@ mvn dependency:tree
 ```
 
 <hr>
-Clean Lifecycle:
-clean: Deletes the target directory and any other generated files.
-Default Lifecycle:
+<h3>Maven LifeCycle</h3>
 
-validate: Validates the project structure.
-compile: Compiles the source code.
-test: Runs unit tests.
-package: Packages compiled code into a distributable format (e.g., JAR, WAR).
-verify: Runs checks on the package to ensure its integrity.
-install: Installs the package into the local repository.
-deploy: Copies the final package to a remote repository for sharing with other developers or projects.
+<h4>Clean Lifecycle:</h4>
+<h5>clean:</h5> Deletes the target directory and any other generated files.
+
+<h4>Default Lifecycle:</h4>h4>
+
+<h5>validate:</h5> Validates the project structure.
+<h5>compile:</h5> Compiles the source code.
+<h5>test:</h5> Runs unit tests.
+<h5>package:</h5> Packages compiled code into a distributable format (e.g., JAR, WAR).
+<h5>verify:</h5> Runs checks on the package to ensure its integrity.
+<h5>install:</h5> Installs the package into the local repository.
+<h5>deploy:</h5> Copies the final package to a remote repository for sharing with other developers or projects.
