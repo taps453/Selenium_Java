@@ -31,6 +31,6 @@ public class TestNG {
 
 	@Test
 	public void printing() {
-		System.out.println("tttt");
+		System.out.println("ttt");
 	}
 }
