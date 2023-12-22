@@ -154,7 +154,7 @@ mvn dependency:tree
 <h4>Clean Lifecycle:</h4>
 <h5>clean:</h5> Deletes the target directory and any other generated files.
 
-<h4>Default Lifecycle:</h4>h4>
+<h4>Default Lifecycle:</h4>
 
 <h5>validate:</h5> Validates the project structure.
 <h5>compile:</h5> Compiles the source code.
