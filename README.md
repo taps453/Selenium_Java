@@ -156,10 +156,10 @@ mvn dependency:tree
 
 <h4>Default Lifecycle:</h4>
 
-<li>validate:</li> Validates the project structure.
-<li>compile:</li> Compiles the source code.
-<li>test:</li> Runs unit tests.
-<li>package:</li> Packages compiled code into a distributable format (e.g., JAR, WAR).
-<li>verify:</li> Runs checks on the package to ensure its integrity.
-<li>install:</li> Installs the package into the local repository.
-<li>deploy:</li> Copies the final package to a remote repository for sharing with other developers or projects.
+<li><h5>validate:</h5> Validates the project structure.</li>
+<li><h5>compile:</h5> Compiles the source code.</li>
+<li><h5>test:</h5> Runs unit tests.</li>
+<li><h5>package:</h5> Packages compiled code into a distributable format (e.g., JAR, WAR).</li>
+<li><h5>verify:</h5> Runs checks on the package to ensure its integrity.</li>
+<li><h5>install:</h5> Installs the package into the local repository.</li>
+<li><h5>deploy:</h5> Copies the final package to a remote repository for sharing with other developers or projects.</li>
