@@ -152,7 +152,7 @@ mvn dependency:tree
 <h3>Maven LifeCycle</h3>
 
 <h4>Clean Lifecycle:</h4>
-<p></b>clean:</b></p> Deletes the target directory and any other generated files.
+<p><b>clean:</b></p> Deletes the target directory and any other generated files.
 
 <h4>Default Lifecycle:</h4>
 
