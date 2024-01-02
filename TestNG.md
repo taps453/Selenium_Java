@@ -18,18 +18,18 @@ It's a Test Automation Framework, which used to manage and execute the Test Case
 <li> It's a line of code that can control how the method below then will execute.</li>
 <li>It's preceded by @ symbols.</li>
 
-<li>BeforeSuite - method will run before all tests in this suite.</li>
-<li>AfterSuite - method will run after all tests in this suite have run.</li>
-<li>BeforeTest - method will run before any test method belonging to the class inside the <test> tag is run.</li>
-<li>AfterTest - method will run after all the test methods belonging to the class inside the <test> tag have run.</li>
-<li>@BeforeGroups - method run before the methods that belong to this grp.</li>
-<li>@AfterGroups - method run after last method of the grp is invoked.</li>
-<li>@BeforeMethod - run before each test method</li>
-<li>@AfterMethod - run after each test method</li>
-<li>@DataProvider - it provide the data toa test method.</li>
-<li>@Listeners  - Defines Listners on a test class.</li>
-<li>@Parameters  - describe how to pass parameters to a @Test method</li>
-<li>@Test - mark a method as part of the test.</li>
+<li><b>BeforeSuite</b> - method will run before all tests in this suite.</li>
+<li><b>AfterSuite</b> - method will run after all tests in this suite have run.</li>
+<li><b>BeforeTest</b> - method will run before any test method belonging to the class inside the <test> tag is run.</li>
+<li><b>AfterTest</b> - method will run after all the test methods belonging to the class inside the <test> tag have run.</li>
+<li><b>@BeforeGroups</b> - method run before the methods that belong to this grp.</li>
+<li><b>@AfterGroups</b> - method run after last method of the grp is invoked.</li>
+<li><b>@BeforeMethod</b> - run before each test method</li>
+<li><b>@AfterMethod</b> - run after each test method</li>
+<li><b>@DataProvider</b> - it provide the data toa test method.</li>
+<li><b>@Listeners</b>  - Defines Listners on a test class.</li>
+<li><b>@Parameters</b>  - describe how to pass parameters to a @Test method</li>
+<li><b>@Test</b> - mark a method as part of the test.</li>
 <hr>
 
 <h3>Execution order</h3>  [ BeforeSuite -> BeforeTest -> BeforeClass -> BeforeMethod -> Test -> AfterMethod -> AfterClass -> AfterTest -> AfterSuite ]
@@ -83,10 +83,11 @@ To pass multiple data to the application at runtime. It's also called Data Drive
 <h3>Run multiple Test suite in TestNG -</h3>
 
 <p>create a new xml file and put all xmls file in to the new file.</p>
-
+```xml
 1. <suite-file path="xml1_path "></suite-file>
 2. <suite-file path="xml2_path "></suite-file>
 3. <suite-file path="xml3_path "></suite-file>
+ ```
  
 <hr>
 
