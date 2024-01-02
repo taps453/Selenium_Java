@@ -83,6 +83,7 @@ To pass multiple data to the application at runtime. It's also called Data Drive
 <h3>Run multiple Test suite in TestNG -</h3>
 
 <p>create a new xml file and put all xmls file in to the new file.</p>
+
 ```xml
 1. <suite-file path="xml1_path "></suite-file>
 2. <suite-file path="xml2_path "></suite-file>
