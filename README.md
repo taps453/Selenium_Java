@@ -163,3 +163,80 @@ mvn dependency:tree
 <p><b>verify:</b> Runs checks on the package to ensure its integrity.</p>
 <p><b>install:</b>Installs the package into the local repository.</p>
 <p><b>deploy:</b> Copies the final package to a remote repository for sharing with other developers or projects.</p>
+
+
+
+
+
+
+
+Xpath - XML path, It's a syntax or language for finding any element on 	the web page using XML path expression.
+
+1. Absolute xpath - 
+- direct way to find the element in HTML DOM.
+- Begin with (/) slash. dtsrt from root location.
+
+ex- /html/body/div/div/div/a/img
+
+2. Relative xpath -
+- it start from the middle of HTmL DOM.
+- start with (//), It can search the element anywhere at the webpage
+
+ex- xpath = //tagname[@attribute = "value"]
+//span[@class = "hmsprite"] or //*[@class="hmsprie"]/div[3]/div[2]/a
+
+==================================================================================================================================
+CSS Selector - It,s a combination of element selector and a selector value. It can locate web element having no ID, Class or Name.
+
+for ID - <HTML tag><#><value of ID attribute>
+1- input#login1
+
+for Class - <HTML tag><.><value of class attribute>
+1- "em.eye-icon" or ".eye-icon"
+
+for Attribute - <HTML tag><[attribute = value of attribute]>
+1- "input[title='Sign in']"
+
+------------------------------------------------------------------------------------------------------------------------------------
+Create combined xPath - 
+
+1- //input[@type='text' and @name='firstname']
+
+text() function - it help us to find the element based on the text present in  the element.[case sensitive]
+
+syntax - //HTMLTAG[text() = 'value']
+
+
+Parent child -
+//div[@id='navbar-collapse']/ul/li/a[text() ='Features']
+//div[@id='navbar-collapse']//a[text()='Features']
+
+
+Wildcard search in XPath:- *
+1- //*[@id='value']
+
+Contains() - find the element with partial values / Dynamic Elements.
+syntax - //htmlTag[contains(text(),'value']
+
+ex- //div[contains(text(),'2019') and contains(@id,'last_trade')]
+
+--------------------------------------------------------------------------------------------------------------------------------------
+Starts-with() - //htmltag[starts-with(@attribute,'value')]
+Ends-with() - //htmltag[ends-with(@attribute,'value')]
+
+
+Farward Axis - 
+Reverse Axis -
+
+
+
+
+
+
+
+
+
+
+
+
+
