@@ -102,7 +102,7 @@ mvn package
 #### mvn install
 
 - Installs the project artifacts into the local Maven repository. This makes them available for other projects that depend on them.
-- 
+  
 ```bash
 mvn install
 ```
