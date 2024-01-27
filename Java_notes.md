@@ -133,3 +133,22 @@ Set --> HashSet , LinkedHashSet
 ##### Final variable - Value of final variable can't be change.
 ##### Final Method - Final method can't be overridden in any child class.
 ##### Final class  - Final Class can't be overridden in java.
+
+
+#### Abstract Class
+- Class which is declared with the abstract keyword is known as an abstract class. It can have abstract and non abstract methods.
+- Abstract methods are the Methods without implementation.
+- Abstraction is a process of hiding the implementation details and showing only functionality to the user. Abstraction lets you focus on what the object does instead of how it does it.
+- Abstract Class needs to be extended and its method implemented. Abstract class cannot be instantiated.
+
+
+#### Interface
+- Interface is used to achieve the 100% Abstraction in Java. In Interface, only abstract method are allowed.
+- All Variables declared in Interface should be Constant. i.e public static final
+- You can't create the Object of Interface.
+- An Interface is declared by using the interface keyword.
+
+
+#### Encapsulation 
+- Encapsulation in Java is a process of wrapping code and data together into a single unit.
+- 
