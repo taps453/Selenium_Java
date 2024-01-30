@@ -151,4 +151,76 @@ Set --> HashSet , LinkedHashSet
 
 #### Encapsulation 
 - Encapsulation in Java is a process of wrapping code and data together into a single unit.
-- 
+- User can create a fully encapsulated class in java by making all the data member of the class private. And use "setter" and "getter" method to set and get the data in it.
+
+
+
+#### String
+- In java, String is an object that represents a sequence of characters.
+
+##### String Comparison
+- By equals() method
+- By comparison operator(==) - It compare reference instead of value.
+
+##### String concatenation 
+- By + operator
+- By concat() method
+
+##### String Buffer Class:-
+- StringBuffer class is a mutable class, unlike the String class which is immutable. StringBuffer class is used to create mutable strings.
+- It's preferred in (appending, inserting, deleting, modifying)
+
+##### String Buffer Class Methods
+- append()
+- insert()
+- replace()
+- delete()
+- reverse()
+
+#### String Class Methods
+- String CharAt() - return a Char value at the given index number.
+- String concat() - combines specified string at the end of given string.
+- String contains() - It search the sequence of char in string. (True/Flase)
+- String endWith() - check if given string ends with given suffix. (True/False)
+- String equals()  
+- String indexOf() 
+- String lastIndexOf()  
+- String length()  
+- String replace()
+- String split()
+- String startWith()
+- String substring() - method return a part of the string.
+- String toCharArray() - method convert string into character array.
+- String toLowerCase()
+- String toUpperCase()
+- String trim() - it eliminates leading and trailing spaces.
+
+
+
+<hr>
+
+#### Exception handling
+- It's a mechanism to handle the runtime errors so that normal flow of the application can be maintained.
+- Exception is an event that disrupts the normal flow of the program.
+
+##### Try
+- try keyword is used to specify a block where we should place exception code.
+The try block must be followed by either catch or finally.
+
+##### Catch
+- catch block is used to handle the exception.
+
+- Java try block is used to enclose the code that might throw an exception.
+
+- Zero division exception
+- Null pointer exception
+
+##### Multi Catch
+- Application perform different tasks at the occurrence of different exceptions, use java multi catch block.
+
+
+##### Finally 
+- Java finally block is followed by try block and always executed whenever the exception occur or not.
+- Finally block is used to execute important code such as closing connection, stream e.t.c
+
+
